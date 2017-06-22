@@ -29,7 +29,7 @@ spa.shell = (function (){
 			+ '<div class="spa-shell-chat"></div>'
 			+ '<div class="spa-shell-modal"></div>'
 		},
-		stateMap = { $container : null},
+		stateMap = { $container : null },
 		jqueryMap = {},
 
 		setJqueryMap, initModule;
@@ -57,8 +57,8 @@ spa.shell = (function (){
 		$container.html( configMap.main_html );
 		setJqueryMap();
 	}
-	// public 메서트 /initModule/ 끝
-	
+	// public 메서드 /initModule/ 끝
+
 	return { initModule : initModule };
 	// ---------------- Public 메서드 끝 ----------------
-})
+}());
