@@ -4,6 +4,50 @@
 		"selected_items":
 		[
 			[
+				"ba",
+				"backface-visibility"
+			],
+			[
+				"uriAn",
+				"uriAnchor"
+			],
+			[
+				"anchor_map_",
+				"anchor_map_proposed"
+			],
+			[
+				"_s_ch",
+				"_s_chat_proposed"
+			],
+			[
+				"_s",
+				"_s_chat_previous"
+			],
+			[
+				"ancho",
+				"anchor_map_proposed"
+			],
+			[
+				"chat_ret",
+				"chat_retracted_title"
+			],
+			[
+				"chat",
+				"chat_extend_title"
+			],
+			[
+				"chat_ext",
+				"chat_extend_title"
+			],
+			[
+				"chat_re",
+				"chat_retract_time"
+			],
+			[
+				"cha",
+				"chat_extend_time"
+			],
+			[
 				"list-styl",
 				"list-style-position"
 			],
@@ -39,6 +83,46 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "spa.html",
+			"settings":
+			{
+				"buffer_size": 608,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/spa.css",
+			"settings":
+			{
+				"buffer_size": 968,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/spa.js",
+			"settings":
+			{
+				"buffer_size": 422,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/spa.shell.js",
+			"settings":
+			{
+				"buffer_size": 7609,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/spa.shell.css",
+			"settings":
+			{
+				"buffer_size": 1411,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -85,10 +169,14 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/Eric/Documents/Eric/project/spa"
+		"/Users/Eric/Documents/Eric/project/spa",
+		"/Users/Eric/Documents/Eric/project/spa/css",
+		"/Users/Eric/Documents/Eric/project/spa/js"
 	],
 	"file_history":
 	[
+		"/Users/Eric/Documents/Eric/project/spa/README.md",
+		"/Users/Eric/Documents/Eric/project/spa/layout.html",
 		"/Users/Eric/Documents/dev/git/SPA/css/spa.css",
 		"/Users/Eric/Documents/dev/git/SPA/js/spa.js",
 		"/Users/Eric/Documents/dev/git/SPA/index.html",
@@ -128,7 +216,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -143,6 +231,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"initModule",
+			"ㅐㅇ커 맵으로 변경 사항",
+			"copyAnchormap",
+			"uri 업데이트 시도 끝",
+			"statemap",
+			"anchor_map",
+			"initModule",
 			"ftp",
 			"memory",
 			"define( 'WP_MEMORY_LIMIT', '256M' );",
@@ -199,8 +294,173 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "spa.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 608,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								286,
+								286
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/spa.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 968,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								64,
+								64
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/spa.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 422,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								295,
+								305
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/spa.shell.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7609,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								340,
+								340
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/spa.shell.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1411,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								859,
+								859
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -284,7 +544,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 205.0,
 	"status_bar_visible": true,
 	"template_settings":

@@ -240,9 +240,12 @@ spa.shell = (function (){
 
 	// 이벤트 핸들러 /onClickChat/ 시작끝
 	onClickChat = function ( event ){
-		changeAnchorPart({
-			chat: ( stateMap.is_chat_retracted ? 'open' : 'closed' )
-		});
+		if( toggleChat( stateMap.is_chat_retracted)){
+			changeAnchorPart({
+				chat: ( stateMap.is_chat_retracted ? 'open' : 'closed' )
+			});
+		}
+		
 		return false;
 	}
 	// 이벤트 핸들러 /onClickChat/ 끝
@@ -266,7 +269,7 @@ spa.shell = (function (){
 		});
 
 		// URI 앵커 변경 이벤트를 처리
-		// 이 작업은 모든 기능 모듈이 설정 및 초기화된 후에 수행된다.
+		// 이 작업은 모든 기능 모듈이 설정 및 초기화된 후에 수행한다.
 		// 이렇게 하지 않으면 페이지 로드 시점에 앵커를 판단하는 데 사용되는
 		// 트리거 이벤트를 모듈에서 처리할 수 없게 된다.
 		$(window)
