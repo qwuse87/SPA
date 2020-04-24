@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta content="text/html;" charset="UTF-8">
+	<!-- ie9 이상의 최신 표준 지원 -->
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta content="text/html;" charset="utf-8">
 	<title>SPA Starter</title>
+
+	<!-- Thirdparty Stylesheets -->
 
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="css/spa.css" type="text/css">
+	<link rel="stylesheet" href="css/spa.chat.css" type="text/css">
 	<link rel="stylesheet" href="css/spa.shell.css" type="text/css">
 
 	<!-- Thirdparty JS -->
@@ -14,7 +19,10 @@
 
 	<!-- SPA JS -->
 	<script src="js/spa.js"></script>
+	<script src="js/spa.util.js"></script>
+	<script src="js/spa.model.js"></script>
 	<script src="js/spa.shell.js"></script>
+	<script src="js/spa.chat.js"></script>
 	<script>
 		$(function () {
 			spa.initModule( $('#spa'));

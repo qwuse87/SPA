@@ -20,13 +20,13 @@ spa.shell = (function (){
 			},
 			main_html : String()
 			+ '<div class="spa-shell-head">'
-			+ '<div class="spa-shell-head-logo"></div>'
-			+ '<div class="spa-shell-head-acct"></div>'
-			+ '<div class="spa-shell-head-search"></div>'
+			+ 	'<div class="spa-shell-head-logo"></div>'
+			+ 	'<div class="spa-shell-head-acct"></div>'
+			+ 	'<div class="spa-shell-head-search"></div>'
 			+ '</div>'
 			+ '<div class="spa-shell-main">'
-				+ '<div class="spa-shell-main-nav"></div>'
-				+ '<div class="spa-shell-main-content"></div>'
+			+ 	'<div class="spa-shell-main-nav"></div>'
+			+	'<div class="spa-shell-main-content"></div>'
 			+ '</div>'
 			+ '<div class="spa-shell-foot"></div>'
 			+ '<div class="spa-shell-chat"></div>'
@@ -267,6 +267,10 @@ spa.shell = (function (){
 		$.uriAnchor.configModule({
 			schema_map : configMap.anchor_schema_map
 		});
+
+		// 기능 모듈을 설정 및 초기화
+		spa.chat.configModule( { } );
+		spa.chat.initModule( jqueryMap.$chat );
 
 		// URI 앵커 변경 이벤트를 처리
 		// 이 작업은 모든 기능 모듈이 설정 및 초기화된 후에 수행한다.

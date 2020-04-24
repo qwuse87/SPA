@@ -71,7 +71,7 @@ spa.util = (function () {
     // public 메서드 /setConfigMap/ 끝
 
     return {
-        makeError = makeError,
-        setConfigMap = setConfigMap
+        makeError : makeError,
+        setConfigMap : setConfigMap
     }
 }());

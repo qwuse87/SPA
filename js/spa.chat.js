@@ -41,7 +41,7 @@ spa.chat = ( function() {
     // ------------ 이벤트 핸들러 끝 ------------
     
     // ------------ public 메서드 시작 ------------
-    // public 메서드 /configModule/ 시작
+    // public 메서드 /configModule/ 시작 
     // 목적 : 허용된 키의 설정 조정
     // 인자 : 설정 가능한 키와 값으로 구성된 맵
     //     * color_name - 사용할 색상
